@@ -22,7 +22,7 @@ from keras import optimizers
 '''Census Data'''
 ########################
 '''Importing the dataset 1'''
-data = pd.read_csv('/Users/sebastianreitz/Desktop/Georgia Tech/1. Semester/Machine Learning/Assignment 1/adult.csv')
+data = pd.read_csv('...csv')
 data = data.drop(['educational-num','fnlwgt'],1)
 data = data[data['workclass'] != '?']
 
@@ -135,7 +135,7 @@ train_results = []
 test_results = []
 for e in pca_elements:
     print(e)
-    data = pd.read_csv('/Users/sebastianreitz/Desktop/Georgia Tech/1. Semester/Machine Learning/Assignment 1/adult.csv')
+    data = pd.read_csv('...csv')
     data = data.drop(['educational-num','fnlwgt'],1)
     data = data[data['workclass'] != '?']
     
@@ -414,7 +414,7 @@ print(accuracy)
 
 '''Importing the dataset 2'''
 ########################
-data = pd.read_csv('/Users/sebastianreitz/Desktop/Georgia Tech/1. Semester/Machine Learning/Assignment 1/MLNasaDataset.csv')
+data = pd.read_csv('...csv')
 
 X = data.iloc[:,:9].values
 y = data.iloc[:,-1].values
