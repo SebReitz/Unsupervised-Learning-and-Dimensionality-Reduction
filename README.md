@@ -12,7 +12,6 @@ The structure is:
   - PCA, KMeans/EM
   - PCA, KMeans and ANN
   2. Shuttle Data Import and Preprocessing
-  2. Census Data Import and Preprocessing
   2.1 KMeans Clustering
   2.2 Expectation Maximization (GMM)
   2.3 Principal Component Analysis (PCA)
